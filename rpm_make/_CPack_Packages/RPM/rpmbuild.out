@@ -1,0 +1,14 @@
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.G0kJm6
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.9g6E2S
+Processing files: entry-1.0-1.x86_64
+Provides: entry = 1.0-1 entry(x86-64) = 1.0-1
+Requires(interp): /bin/sh /bin/sh /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(pre): /bin/sh
+Requires(post): /bin/sh
+Requires(preun): /bin/sh
+Requires(postun): /bin/sh
+Requires: libc.so.6()(64bit) libc.so.6(GLIBC_2.2.5)(64bit) libpthread.so.0()(64bit) libpthread.so.0(GLIBC_2.2.5)(64bit) libpthread.so.0(GLIBC_2.3.2)(64bit) rtld(GNU_HASH)
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /home/go_test/instance/sorter/src/entry/rpm_make/_CPack_Packages/RPM/entry-1.0-0.x86_64
+Wrote: /home/go_test/instance/sorter/src/entry/rpm_make/_CPack_Packages/RPM/entry-1.0-0.x86_64.rpm
+Executing(%clean): /bin/sh -e /var/tmp/rpm-tmp.VI2HJw

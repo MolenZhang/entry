@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;entry&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../ngfront" />
+      <root url="file://$PROJECT_DIR$/../nginxcfgbuilder" />
+      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../golang.org" />
+      <root url="file://$PROJECT_DIR$/../bkp" />
+      <root url="file://$PROJECT_DIR$/../test_fork" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../ngfront" />
+      <root url="file://$PROJECT_DIR$/../nginxcfgbuilder" />
+      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../golang.org" />
+      <root url="file://$PROJECT_DIR$/../bkp" />
+      <root url="file://$PROJECT_DIR$/../test_fork" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>

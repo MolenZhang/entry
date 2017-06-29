@@ -1,0 +1,11 @@
+[Unit]
+Description=entry - connect to the docker for the TTY to attach or exec
+ 
+[Service]
+EnvironmentFile=-/etc/sysconfig/entry/entry.cfg
+ExecStart=/usr/bin/entry \
+            $SERVER_PORT \
+            $HEART \
+            $LOG_LEVEL
+[Install]
+WantedBy=multi-user.target

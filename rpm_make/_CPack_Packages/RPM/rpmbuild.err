@@ -1,0 +1,25 @@
++ umask 022
++ cd /home/go_test/instance/sorter/src/entry/rpm_make/_CPack_Packages/RPM/BUILD
++ mv /home/go_test/instance/sorter/src/entry/rpm_make/_CPack_Packages/RPM/entry-1.0-0.x86_64 /home/go_test/instance/sorter/src/entry/rpm_make/_CPack_Packages/RPM/tmpBBroot
++ exit 0
++ umask 022
++ cd /home/go_test/instance/sorter/src/entry/rpm_make/_CPack_Packages/RPM/BUILD
++ '[' /home/go_test/instance/sorter/src/entry/rpm_make/_CPack_Packages/RPM/entry-1.0-0.x86_64 '!=' / ']'
++ rm -rf /home/go_test/instance/sorter/src/entry/rpm_make/_CPack_Packages/RPM/entry-1.0-0.x86_64
+++ dirname /home/go_test/instance/sorter/src/entry/rpm_make/_CPack_Packages/RPM/entry-1.0-0.x86_64
++ mkdir -p /home/go_test/instance/sorter/src/entry/rpm_make/_CPack_Packages/RPM
++ mkdir /home/go_test/instance/sorter/src/entry/rpm_make/_CPack_Packages/RPM/entry-1.0-0.x86_64
++ '[' -e /home/go_test/instance/sorter/src/entry/rpm_make/_CPack_Packages/RPM/entry-1.0-0.x86_64 ']'
++ rm -rf /home/go_test/instance/sorter/src/entry/rpm_make/_CPack_Packages/RPM/entry-1.0-0.x86_64
++ mv /home/go_test/instance/sorter/src/entry/rpm_make/_CPack_Packages/RPM/tmpBBroot /home/go_test/instance/sorter/src/entry/rpm_make/_CPack_Packages/RPM/entry-1.0-0.x86_64
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-compress
++ /usr/lib/rpm/redhat/brp-strip /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-strip-comment-note /usr/bin/strip /usr/bin/objdump
++ /usr/lib/rpm/redhat/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/brp-python-bytecompile /usr/bin/python 1
++ /usr/lib/rpm/redhat/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-java-repack-jars
++ umask 022
++ cd /home/go_test/instance/sorter/src/entry/rpm_make/_CPack_Packages/RPM/BUILD
++ exit 0
